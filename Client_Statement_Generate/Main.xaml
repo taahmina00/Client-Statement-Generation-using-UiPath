@@ -1,0 +1,390 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="790,4727" sap2010:WorkflowViewState.IdRef="Sequence_6">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="790,4704" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+      <ueab:ExcelProcessScopeX.Body>
+        <ActivityAction x:TypeArguments="ui:IExcelProcess">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="756,4594" sap2010:WorkflowViewState.IdRef="Sequence_15">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="722,4534" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="18c08e50-8d64-4433-ace3-714037876651">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="688,4294" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'UserID'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="654,286" sap2010:WorkflowViewState.IdRef="NTypeInto_18" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="it-mehedi" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/BankUltimusSPARK" CVScreenId="e34ac263-c332-4a66-8ffd-c383d0d31bb4" ContentHash="09uJ58__YEGAQDM1JtXlNQ" CvTextArea="750, 347, 46, 16" CvTextArgument="JserID" CvType="Text" DesignTimeRectangle="749, 355, 332, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='UserId' tag='INPUT' type='text' class='txtlogin' aaname='UserID' /&gt;" Guid="8b939cd0-f055-4124-80e7-e61996bac191" InformativeScreenshot="b239da8329105f74e719f630009a5aa1.png" Reference="FGXxTieRdkCEm9omqXB1bQ/CEaNolYey0iHEETQU4Ipmg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="e34ac263-c332-4a66-8ffd-c383d0d31bb4" CvTextArea="750, 347, 46, 16" CvTextArgument="JserID" CvType="Text" DesignTimeRectangle="749, 344, 47, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='UserID' check:innerText='UserID' /&gt;" Guid="ac4ac42c-2bcf-4afd-9432-3664040a900d" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="654,286" sap2010:WorkflowViewState.IdRef="NTypeInto_19" IsPassword="True" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="1" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/BankUltimusSPARK" CVScreenId="37c36ecc-0d5c-4b19-a8ce-6eed96a33789" ContentHash="EvcuoTvlmUeHesvpprjdCA" CvElementArea="743, 444, 183, 28" CvType="InputBox" DesignTimeRectangle="731, 347, 368, 132" DesignTimeScaleFactor="1" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='frm_Login' tag='FORM' type='' class='login-form' aaname='                                                                                                                                                                         ' check:innerText='UserID&amp;#xA;Password&amp;#xA;Banking Function&amp;#xA;Security Management&amp;#xA;System Administration&amp;#xA;Treasury Function&amp;#xA;login' /&gt;" Guid="5b68248a-8df8-4f25-af7c-7f16ee38a803" InformativeScreenshot="84d7ad08ed915bd1f20b05f4fa5c823f.png" Reference="FGXxTieRdkCEm9omqXB1bQ/G3NTE_nBw0OD69KlUx1Vmw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="37c36ecc-0d5c-4b19-a8ce-6eed96a33789" CvTextArea="748, 400, 89, 18" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="749, 395, 332, 30" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='PasswordString' tag='INPUT' type='password' class='txtlogin' aaname='Password' /&gt;" Guid="c6651268-65dc-443c-89e9-b47a085a1f53" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="654,225" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Version="V4">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/BankUltimusSPARK" CVScreenId="808c5a4f-d0f8-408f-be84-830c100235a3" ContentHash="eYEkPq_wg0qMTtcnirLT-A" CvElementArea="1019, 495, 67, 67" CvType="Icon" DesignTimeRectangle="1023, 499, 60, 60" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='btnlogin' tag='BUTTON' type='submit' class='login-btn txtlogin' aaname='login' check:innerText='login' /&gt;" Guid="d2ac50c7-14e8-475b-a186-eba8815aba5b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQTSURBVHhe7ZtLTxNRGIb9gQqiJhpx40ISNy7UDRJjDG5IjBuNG1eggAiBSgXkWrlDKRZaevkHLvwRx/M2Oc105p12Lt/cwC95ElJmzvned9pzm3OuNZtNdZX5bwD7UJq5wxP1bm1HvV7aUs9za+rx3Ip6MJ1XA59zLfA3PsP/cA2uxT2sLGkiMaBcq6vJvWP1Ir+hbmmB18cXAoF7UcaULgtlsrrCImrA5u9z9VQ/RSZGgme67PXTM1p3UEQM2Duvtp4USzoKUNfuWYXm4pdQBhxVLtTo8pa6QZKMGtQ5ulxQRZ0Dy80rgQ2YPyqp21++0+TiBDmEaTADGfB+c48mkyQfdE4s1174MqBSr6uRGH/rfnn5Y1NV6w2auxueDShWL9TQ7DKtOE0gRz/tgicD8OSHZldohWkEJiBnpsWOJwPi7OKkwE+VabHT04CPhX1aQRZA7kyTla4GzBwUE+njpUDuC7q7ZtoMrgac6bH33clFWnCWuKc1lGs1qhG4GvB2bZsWmEWghWkE1IDDSlX1TwSfxaWNm1pL6YJ/C6gBr/ScnBXklcqfv2p4dZf+LynerBQcOoHDgG09y+qb4IV4xUSajICmgp6u2/U6DJCYz9sjLUZAm11vhwFo+fvIjX5xi6SN6NffAnuP0GHA1/0ivdEvvSJJI6DRqrnDAKmZntdIwgg08FbNbQMaGqkFDr8RpxH3p/ItrQ4DVktlekMQgkZcRkCrw4BP24f04iCEjaiNgFaHAWOrckNfqYjKCOvQuG2A5FKXdEgbYW0I2wY8mf9JLw5CVCFlBLQ6DMD7OXZxEKIKKQMeziw5DZCc/UmH9E/gju7uHQbgQ3ZxEKQiqkaQGoCvBbs4CGEjKuEG+hNIQyMYtXADbQST7AbjEm6wLpm3DUhiIBS3cAO0OgyQXP/vFUkJN1jfF7QNyB2V6MVBcIukhRug1WFArdEQ6wrtkRbhAFN+aHUYAKQXRNIk3GBtAEGHAVJLYmkUbui6JIYFQ3bTZQGLolj4tWruMABEuc0taXouiwO8PGA3XwZ+lT28GAGSo8K0YG/8DNSAg/Nq6NdjaQIvR6GJaaUGALxMZIVlEevQ146rAXidDOdYgVkCA5+TqvuuMVcDwPjuMS00S3w76L6LtKsBIMs7RbrtDDH0NKDeyOY2ueHFjVbuTJOVngaArG2UfCS9URJga/zglNzSeVQMTud1rrzLY3g2AGAjMjYks4rTQKSbpa1gazpLIEli2S5vBYcUBlIwTkjkwIQB29IxYkzuyMxWaxs/y80roQww4ADTSD6+tgHdMg5qsVz8ImKAAUfacLSNJS0B5vM4msfqDoqoAQYccsRhRzwpiYOTOISZiYOTbvg+Oru+o3LHp7QsaWIxIM1ccQOa6h8dUtx9YTbgugAAAABJRU5ErkJggg==" InformativeScreenshot="bc29e0d622cc16fedf0bba8bea07033c.png" Reference="FGXxTieRdkCEm9omqXB1bQ/LOjdJVO_sEeYuAdEHdRUSg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT txtMenuSearch'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="654,250" sap2010:WorkflowViewState.IdRef="NTypeInto_20" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="9820[k(Enter)]" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/BankUltimus/HomePageUI.aspx" CVScreenId="78dd3cc4-5ddd-457b-8942-5a13baa24f5b" ContentHash="72dGYCkoA0OBuaDzwVX1tg" CvElementArea="350, 160, 398, 26" CvType="InputBox" DesignTimeRectangle="350, 162, 397, 23" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='txtMenuSearch' tag='INPUT' type='text' class='autosuggest ui-autocomplete-input focus' placeholder='Search For Functions or Reports Menu with their name or Fast Path' aaname='Enter Functions or Reports Name or Fast Path to Search...' /&gt;" Guid="436c3943-d312-44df-a92d-8b52bf66b8e6" InformativeScreenshot="8402220dc604e2553db5efb6255b7ebe.png" Reference="FGXxTieRdkCEm9omqXB1bQ/KVB_6VEh1E2rko46GOfggQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <ueab:ExcelApplicationCard Password="{x:Null}" ReadFormatting="{x:Null}" SensitivityLabel="{x:Null}" CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="654,3185" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_3" ResizeWindow="None" SensitivityOperation="None" WorkbookPath="C:\Users\CBS.INTERN\Desktop\Book2.xlsx">
+                      <ueab:ExcelApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                          </ActivityAction.Argument>
+                          <ueab:ExcelForEachRowX DisplayName="For Each Excel Row" EmptyRowBehavior="Stop" HasHeaders="True" sap:VirtualizedContainerService.HintSize="620,2891" sap2010:WorkflowViewState.IdRef="ExcelForEachRowX_6" Range="[Excel.Sheet(&quot;Sheet1&quot;)]" SaveAfterEachRow="True">
+                            <ueab:ExcelForEachRowX.Body>
+                              <ActivityAction x:TypeArguments="ue:CurrentRowQuickHandle, x:Int32">
+                                <ActivityAction.Argument1>
+                                  <DelegateInArgument x:TypeArguments="ue:CurrentRowQuickHandle" Name="CurrentRow" />
+                                </ActivityAction.Argument1>
+                                <ActivityAction.Argument2>
+                                  <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                                </ActivityAction.Argument2>
+                                <Sequence sap:VirtualizedContainerService.HintSize="586,2701" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Double" DisplayName="Type Into 'Branch ID'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,250" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="[CurrentRow(&quot;Branch ID&quot;).ToString]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="b61fd116-4d7b-4916-8a47-3c355285bc8d" ContentHash="Cj81_evX4UCTBB4BA7oR1w" CvElementArea="152, 237, 207, 20" CvType="InputBox" DesignTimeRectangle="152, 238, 206, 18" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='outerborderMandatory focus' aaname='Branch ID' /&gt;" Guid="06122d0c-d9de-49b4-a5f8-52535e8862d9" InformativeScreenshot="bd7487f216e7462127d35528f986f149.png" IsResponsive="True" Reference="FGXxTieRdkCEm9omqXB1bQ/5G79es4HWUajnXsRZirRdA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="b61fd116-4d7b-4916-8a47-3c355285bc8d" CvTextArea="26, 240, 53, 12" CvTextArgument="Branch ID" CvType="Text" DesignTimeRectangle="27, 240, 51, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='textFont1' aaname='Branch ID' check:innerText='Branch ID' /&gt;" Guid="3fb66f74-a49c-430e-a713-ed80aa112a31" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Account Number From'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,250" sap2010:WorkflowViewState.IdRef="NTypeInto_22" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="[CurrentRow(&quot;Account Number&quot;).ToString + &quot;[k(Enter)]&quot;]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="f4cb4e20-b712-475d-8fa9-9cb01900ef70" ContentHash="cN-FxB3maEWPxKQk9PaR9g" CvElementArea="151, 258, 208, 21" CvType="InputBox" DesignTimeRectangle="152, 260, 206, 18" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='outerborderMandatory' aaname='Account Number From' /&gt;" Guid="89a1a57b-b59c-4b62-97d3-15499a7d9bdd" InformativeScreenshot="512683be014159076401ad9f604b39cf.png" IsResponsive="True" Reference="FGXxTieRdkCEm9omqXB1bQ/OhKWtVD9ekKxovWgFFKW6A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="f4cb4e20-b712-475d-8fa9-9cb01900ef70" CvTextArea="25, 262, 122, 12" CvTextArgument="Account Number From" CvType="Text" DesignTimeRectangle="27, 262, 120, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='textFont1' aaname='Account Number From' check:innerText='Account Number From' /&gt;" Guid="6abb090b-1ca6-416a-a55a-e260fb826ee4" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Transaction Date Form'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,250" sap2010:WorkflowViewState.IdRef="NTypeInto_23" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="[DateTime.Parse(CurrentRow(&quot;Date From&quot;).ToString).ToString(&quot;dd/MM/yyyy&quot;) + &quot;[k(Enter)]&quot;]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="ae129907-7cd5-4237-b573-6edcf6f3656e" ContentHash="D0reL1mhxEGKmtE-3H0Llw" CvElementArea="152, 303, 206, 21" CvType="InputBox" DesignTimeRectangle="152, 304, 206, 18" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='outerborderMandatory focus' aaname='Transaction Date Form' /&gt;" Guid="6a059c4e-a8f2-48ac-838d-23639c7fe545" InformativeScreenshot="e82e4bca8dd5b51a04d169587e75e760.png" IsResponsive="True" Reference="FGXxTieRdkCEm9omqXB1bQ/8LM3Hn9PL0eg6BkbE7DUng" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="ae129907-7cd5-4237-b573-6edcf6f3656e" CvTextArea="26, 306, 122, 12" CvTextArgument="Transaction Date Form" CvType="Text" DesignTimeRectangle="27, 306, 121, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='textFont1' aaname='Transaction Date Form' check:innerText='Transaction Date Form' /&gt;" Guid="6c932bfd-02ec-456c-9345-d2261e971b60" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Transaction Date To'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,250" sap2010:WorkflowViewState.IdRef="NTypeInto_24" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="[DateTime.Parse(CurrentRow(&quot;Date To&quot;).ToString).ToString(&quot;dd/MM/yyyy&quot;) + &quot;[k(Enter)]&quot;]" Version="V4">
+                                    <uix:NTypeInto.Target>
+                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="d10314ff-ef44-437f-8b13-c18624db18d3" ContentHash="Mk7OuFvaMEKlAo2TRyg1gQ" CvElementArea="151, 273, 208, 21" CvType="InputBox" DesignTimeRectangle="152, 274, 206, 18" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='outerborderMandatory focus' aaname='Transaction Date To' /&gt;" Guid="5f572f7d-d0bc-4fce-a043-99d7cbe083ec" InformativeScreenshot="f3fec9a3e64a469e3c1909cc1e632f66.png" IsResponsive="True" Reference="FGXxTieRdkCEm9omqXB1bQ/wwTK4e0ck0ity-i3aPxkMA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="d10314ff-ef44-437f-8b13-c18624db18d3" CvTextArea="26, 276, 107, 12" CvTextArgument="Transaction Date To" CvType="Text" DesignTimeRectangle="27, 276, 105, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='textFont1' aaname='Transaction Date To' check:innerText='Transaction Date To' /&gt;" Guid="94275823-3e1a-411a-a0d4-991960cf509c" SearchSteps="FuzzySelector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NTypeInto.Target>
+                                  </uix:NTypeInto>
+                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="552,225" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Version="V4">
+                                    <uix:NClick.Target>
+                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="f4d9912e-1879-4535-9604-eda7fa3cf5a0" ContentHash="XjcFNH90xkqmu1B4A1Qxbw" CvElementArea="12, 747, 64, 19" CvTextArea="33, 751, 22, 13" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="14, 748, 60, 21" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='dvContainer' tag='TABLE' /&gt;&lt;webctrl type='submit' tag='INPUT' class='' aaname='ALT + O' check:text='OK' /&gt;" Guid="2ed15b2c-2cc0-4128-abda-a67c2982c6bb" InformativeScreenshot="8de4e44ddc16b1893c69d21c4841cf3c.png" Reference="FGXxTieRdkCEm9omqXB1bQ/nVnDsuMYe0-Ci8QfBtKAlQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                    </uix:NClick.Target>
+                                    <uix:NClick.VerifyOptions>
+                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                        <uix:VerifyExecutionOptions.Retry>
+                                          <InArgument x:TypeArguments="x:Boolean" />
+                                        </uix:VerifyExecutionOptions.Retry>
+                                        <uix:VerifyExecutionOptions.Timeout>
+                                          <InArgument x:TypeArguments="x:Double" />
+                                        </uix:VerifyExecutionOptions.Timeout>
+                                      </uix:VerifyExecutionOptions>
+                                    </uix:NClick.VerifyOptions>
+                                  </uix:NClick>
+                                  <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'chrome.exe BU_ReportPre...'" sap:VirtualizedContainerService.HintSize="552,1414" sap2010:WorkflowViewState.IdRef="WindowScope_5" InformativeScreenshot="68531d39606d7ccb001ac38869c3df3a" Selector="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' /&gt;">
+                                    <ui:WindowScope.Body>
+                                      <ActivityAction x:TypeArguments="x:Object">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,1242" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'grouping'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484,225" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Version="V4">
+                                            <uix:NClick.Target>
+                                              <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="5b9b1cdf-4b95-4eee-a31d-243b3cd0944e" ContentHash="47_dRGX6PU-VsizHalZ4Tg" CvElementArea="1260, 135, 19, 20" CvType="Icon" DesignTimeRectangle="1260, 136, 20, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="7fd921fe-111a-4cd9-b10b-2b5459991593" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVEhL7ZFBCsQgDEXnYJ5QEFzpQjeeRe8iLj1Bhi+0uEjVFoaZARcPgon/teYlhKBPsgVTfksQY2xwvSu2YMr3BVprCiG0OqXUQI0z9PpZjqnAWku1VnLOnQLvfTtDj7vTs/REh6RnJRws78AYc4aj5mY4bi0ZwXfCwaVg9UuPP+N6YCjAQvHWIzDzSKCUolJKuzwi50xSSjYD3NrBE7Zgyr8LBL0Bj282Y63ATL8AAAAASUVORK5CYII=" InformativeScreenshot="98b5faec364ce5f9a69159b64b734a09.png" Reference="FGXxTieRdkCEm9omqXB1bQ/2t7CT2fmRUmfKj_rNbuaHg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                            </uix:NClick.Target>
+                                            <uix:NClick.VerifyOptions>
+                                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                <uix:VerifyExecutionOptions.Retry>
+                                                  <InArgument x:TypeArguments="x:Boolean" />
+                                                </uix:VerifyExecutionOptions.Retry>
+                                                <uix:VerifyExecutionOptions.Timeout>
+                                                  <InArgument x:TypeArguments="x:Double" />
+                                                </uix:VerifyExecutionOptions.Timeout>
+                                              </uix:VerifyExecutionOptions>
+                                            </uix:NClick.VerifyOptions>
+                                          </uix:NClick>
+                                          <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Window 'chrome.exe  Save As'" sap:VirtualizedContainerService.HintSize="484,957" sap2010:WorkflowViewState.IdRef="WindowScope_6" InformativeScreenshot="045b1a4969961e53113e76704b3bb19e" Selector="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;">
+                                            <ui:WindowScope.Body>
+                                              <ActivityAction x:TypeArguments="x:Object">
+                                                <ActivityAction.Argument>
+                                                  <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                                                </ActivityAction.Argument>
+                                                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,787" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'File name'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InteractionMode="HardwareEvents" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Text="[&quot;E:\DownloadedFiles\&quot; + CurrentRow(&quot;File Name&quot;).ToString + &quot;.pdf&quot;]" Version="V4">
+                                                    <uix:NTypeInto.Target>
+                                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportPreviewPOPUPUI.aspx" CVScreenId="2ff619b1-39d4-44eb-b6d7-4af7e850a022" ContentHash="-L9PYkzF-0SDRrYH5a8pgw" CvElementArea="133, 365, 537, 24" CvType="InputBox" DesignTimeRectangle="136, 369, 514, 17" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;wnd aaname='File name:' cls='ComboBox' /&gt;&lt;wnd ctrlid='1001' /&gt;" Guid="db2db677-ed35-4503-b28e-5f1fa7f89482" InformativeScreenshot="ad71898ec3e4ef8f75050b154f5d9c3c.png" IsResponsive="True" Reference="FGXxTieRdkCEm9omqXB1bQ/0n3NmXyYjEeLkmGix-5MvA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                                        <uix:TargetAnchorable.Anchors>
+                                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                                            <uix:Target CVScreenId="2ff619b1-39d4-44eb-b6d7-4af7e850a022" CvTextArea="73, 371, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="18, 366, 115, 23" ElementType="Text" FullSelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Explorer Pane' cls='DirectUIHWND' /&gt;&lt;ctrl name='Explorer Pane' role='pane' /&gt;&lt;ctrl name='Folder Layout Pane' role='pane' /&gt;&lt;ctrl name='Details Pane' role='pane' /&gt;&lt;ctrl name='File name:' role='text' automationid='' check:text='File name:' /&gt;" Guid="5ea5aa4b-8d58-47d6-b2a9-22877faf1243" SearchSteps="Selector, FuzzySelector, CV" />
+                                                          </scg:List>
+                                                        </uix:TargetAnchorable.Anchors>
+                                                      </uix:TargetAnchorable>
+                                                    </uix:NTypeInto.Target>
+                                                    <uix:NTypeInto.VerifyOptions>
+                                                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                                      </uix:VerifyExecutionTypeIntoOptions>
+                                                    </uix:NTypeInto.VerifyOptions>
+                                                  </uix:NTypeInto>
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Version="V4">
+                                                    <uix:NClick.Target>
+                                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportPreviewPOPUPUI.aspx" CVScreenId="a817010b-e72f-4b7c-9205-34e9f4cd39a8" ContentHash="AiZIDr8b-0259F97k1UaFA" CvElementArea="470, 434, 88, 26" CvTextArea="501, 440, 26, 12" CvTextArgument="Save" CvType="Button" DesignTimeRectangle="470, 434, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Save' check:text='&amp;amp;Save' /&gt;" Guid="9c0ae17e-fcb3-46dc-a298-d3d7943df7b1" InformativeScreenshot="0adefb47947e558f4516a923b63983aa.png" Reference="FGXxTieRdkCEm9omqXB1bQ/EuXC_6qqYk6j9fvLrush9Q" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Save As' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                                    </uix:NClick.Target>
+                                                    <uix:NClick.VerifyOptions>
+                                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionOptions.Retry>
+                                                        <uix:VerifyExecutionOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionOptions.Timeout>
+                                                      </uix:VerifyExecutionOptions>
+                                                    </uix:NClick.VerifyOptions>
+                                                  </uix:NClick>
+                                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="18c08e50-8d64-4433-ace3-714037876651" Version="V4">
+                                                    <uix:NClick.Target>
+                                                      <uix:TargetAnchorable BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="b642f57b-dea7-4ad3-aad0-b38bc6d27e9c" ContentHash="Nle6Ul5gNEyDplg4BUUVxA" CvElementArea="909, 6, 20, 19" CvType="CloseButton" DesignTimeRectangle="896, 1, 46, 31" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="d39f565b-1385-41c0-8db6-46db4c815947" InformativeScreenshot="98bc3bd563048ec3b02696ba78f5450a.png" Reference="FGXxTieRdkCEm9omqXB1bQ/gSItOV4R4EKxQuT9dLeyHg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                                                    </uix:NClick.Target>
+                                                    <uix:NClick.VerifyOptions>
+                                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                                        <uix:VerifyExecutionOptions.Retry>
+                                                          <InArgument x:TypeArguments="x:Boolean" />
+                                                        </uix:VerifyExecutionOptions.Retry>
+                                                        <uix:VerifyExecutionOptions.Timeout>
+                                                          <InArgument x:TypeArguments="x:Double" />
+                                                        </uix:VerifyExecutionOptions.Timeout>
+                                                      </uix:VerifyExecutionOptions>
+                                                    </uix:NClick.VerifyOptions>
+                                                  </uix:NClick>
+                                                </Sequence>
+                                              </ActivityAction>
+                                            </ui:WindowScope.Body>
+                                          </ui:WindowScope>
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </ui:WindowScope.Body>
+                                  </ui:WindowScope>
+                                </Sequence>
+                              </ActivityAction>
+                            </ueab:ExcelForEachRowX.Body>
+                          </ueab:ExcelForEachRowX>
+                        </ActivityAction>
+                      </ueab:ExcelApplicationCard.Body>
+                    </ueab:ExcelApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1382, 784" BrowserType="Chrome" ContentHash="bCqGp-GfbkuOAKslYcrRdg" IconBase64="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" InformativeScreenshot="93c388e9e36a2cf8b364c1876f1173ab.jpg" Reference="FGXxTieRdkCEm9omqXB1bQ/U8AVoKerikqPS7Bi9wIX_g" Selector="&lt;html app='chrome.exe' title='Login' /&gt;" Url="https://cbsapptest.meghnabank.com.bd/BankUltimusSPARK/" Version="V2" />
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ueab:ExcelProcessScopeX.Body>
+    </ueab:ExcelProcessScopeX>
+  </Sequence>
+</Activity>

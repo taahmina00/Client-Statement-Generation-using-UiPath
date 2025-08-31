@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="cN-FxB3maEWPxKQk9PaR9g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="f4cb4e20-b712-475d-8fa9-9cb01900ef70" CvElementArea="151, 258, 208, 21" CvType="InputBox" DesignTimeRectangle="152, 260, 206, 18" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='text' tag='INPUT' class='outerborderMandatory' aaname='Account Number From' /&gt;" Guid="89a1a57b-b59c-4b62-97d3-15499a7d9bdd" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f4cb4e20-b712-475d-8fa9-9cb01900ef70" CvTextArea="25, 262, 122, 12" CvTextArgument="Account Number From" CvType="Text" DesignTimeRectangle="27, 262, 120, 14" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='SPAN' class='textFont1' aaname='Account Number From' check:innerText='Account Number From' /&gt;" Guid="6abb090b-1ca6-416a-a55a-e260fb826ee4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="512683be014159076401ad9f604b39cf.png" xmlns="">0FTd6gfiK7EmEI4CgR0AidQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

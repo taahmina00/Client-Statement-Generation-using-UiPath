@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Transaction Date Form",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "8LM3Hn9PL0eg6BkbE7DUng",
+  "Reference": "FGXxTieRdkCEm9omqXB1bQ/8LM3Hn9PL0eg6BkbE7DUng",
+  "ParentRef": "FGXxTieRdkCEm9omqXB1bQ/U8AVoKerikqPS7Bi9wIX_g",
+  "Created": "2025-03-12T08:18:08.5125517Z",
+  "Updated": "2025-03-12T09:33:43.3303156Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT txtMenuSearch",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "KVB_6VEh1E2rko46GOfggQ",
+  "Reference": "FGXxTieRdkCEm9omqXB1bQ/KVB_6VEh1E2rko46GOfggQ",
+  "ParentRef": "FGXxTieRdkCEm9omqXB1bQ/U8AVoKerikqPS7Bi9wIX_g",
+  "Created": "2025-03-12T08:03:09.0574878Z",
+  "Updated": "2025-03-12T08:03:09.0574878Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

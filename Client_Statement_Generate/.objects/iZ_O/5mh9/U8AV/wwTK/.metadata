@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Transaction Date To",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "wwTK4e0ck0ity-i3aPxkMA",
+  "Reference": "FGXxTieRdkCEm9omqXB1bQ/wwTK4e0ck0ity-i3aPxkMA",
+  "ParentRef": "FGXxTieRdkCEm9omqXB1bQ/U8AVoKerikqPS7Bi9wIX_g",
+  "Created": "2025-03-12T08:18:57.5429157Z",
+  "Updated": "2025-03-13T05:06:18.73306Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

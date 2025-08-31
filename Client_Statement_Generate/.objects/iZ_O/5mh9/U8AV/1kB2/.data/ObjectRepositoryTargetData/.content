@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="g0aM4apFnUyyaA4XFxQ31w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" DesignTimeRectangle="1120, 147, 45, 55" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl id='imgLogOut' tag='I' type='' class='fa fa-power-off topLinkIcon' aaname='' /&gt;" Guid="90aeb23e-6e0b-4de0-984b-e944e90c0ec2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b45bf0c994328bdba981fd427ab20d7a.png" xmlns="">01Dzs-0-mfE-T5si0-wTjEQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

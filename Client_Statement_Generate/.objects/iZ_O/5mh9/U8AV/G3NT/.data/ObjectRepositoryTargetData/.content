@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EvcuoTvlmUeHesvpprjdCA" Reference="FGXxTieRdkCEm9omqXB1bQ/G3NTE_nBw0OD69KlUx1Vmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/BankUltimusSPARK" CVScreenId="37c36ecc-0d5c-4b19-a8ce-6eed96a33789" CvElementArea="743, 444, 183, 28" CvType="InputBox" DesignTimeRectangle="731, 347, 368, 132" DesignTimeScaleFactor="1" ElementType="Container" FuzzySelectorArgument="&lt;webctrl id='frm_Login' tag='FORM' type='' class='login-form' aaname='                                                                                                                                                                         ' check:innerText='UserID&amp;#xA;Password&amp;#xA;Banking Function&amp;#xA;Security Management&amp;#xA;System Administration&amp;#xA;Treasury Function&amp;#xA;login' /&gt;" Guid="5b68248a-8df8-4f25-af7c-7f16ee38a803" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="37c36ecc-0d5c-4b19-a8ce-6eed96a33789" CvTextArea="748, 400, 89, 18" CvTextArgument="Password" CvType="Text" DesignTimeRectangle="749, 395, 332, 30" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='PasswordString' tag='INPUT' type='password' class='txtlogin' aaname='Password' /&gt;" Guid="c6651268-65dc-443c-89e9-b47a085a1f53" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84d7ad08ed915bd1f20b05f4fa5c823f.png" xmlns="">0V0hL0D4oRE258p432rP9xw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

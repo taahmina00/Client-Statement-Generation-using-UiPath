@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Branch ID",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "5G79es4HWUajnXsRZirRdA",
+  "Reference": "FGXxTieRdkCEm9omqXB1bQ/5G79es4HWUajnXsRZirRdA",
+  "ParentRef": "FGXxTieRdkCEm9omqXB1bQ/U8AVoKerikqPS7Bi9wIX_g",
+  "Created": "2025-03-12T08:05:46.4963258Z",
+  "Updated": "2025-03-12T08:05:46.4963258Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

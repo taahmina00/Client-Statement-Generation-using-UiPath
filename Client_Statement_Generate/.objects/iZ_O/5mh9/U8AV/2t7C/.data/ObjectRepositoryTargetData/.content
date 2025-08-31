@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="47_dRGX6PU-VsizHalZ4Tg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="5b9b1cdf-4b95-4eee-a31d-243b3cd0944e" CvElementArea="1260, 135, 19, 20" CvType="Icon" DesignTimeRectangle="1260, 136, 20, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl idx='2' role='grouping' /&gt;" FuzzySelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx' role='document' /&gt;&lt;ctrl name='Download' role='push button' /&gt;&lt;ctrl automationid='' role='grouping' /&gt;" Guid="7fd921fe-111a-4cd9-b10b-2b5459991593" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVEhL7ZFBCsQgDEXnYJ5QEFzpQjeeRe8iLj1Bhi+0uEjVFoaZARcPgon/teYlhKBPsgVTfksQY2xwvSu2YMr3BVprCiG0OqXUQI0z9PpZjqnAWku1VnLOnQLvfTtDj7vTs/REh6RnJRws78AYc4aj5mY4bi0ZwXfCwaVg9UuPP+N6YCjAQvHWIzDzSKCUolJKuzwi50xSSjYD3NrBE7Zgyr8LBL0Bj282Y63ATL8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="98b5faec364ce5f9a69159b64b734a09.png" xmlns="">01hcegIFEvk68leAgReAffA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

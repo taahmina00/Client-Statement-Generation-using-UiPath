@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="uumbVbnQB0GveswL8iuYKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="effe25c6-b462-4950-8334-6ef91d9bd7c4" CvElementArea="723, 482, 56, 33" CvTextArea="740, 491, 19, 11" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="731, 486, 38, 24" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Yes' class='ui-button-text' tag='SPAN' type='' check:innerText='Yes' /&gt;" Guid="b0df1699-5db4-40fd-a08d-057b1bc90c03" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="effe25c6-b462-4950-8334-6ef91d9bd7c4" CvElementArea="723, 482, 56, 33" CvTextArea="740, 491, 19, 11" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="724, 483, 53, 31" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Yes' aria-role='button' tag='BUTTON' type='button' class='ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only' check:innerText='Yes' /&gt;" Guid="09ceb4ee-4745-404b-82c9-46fa22577d77" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="48e3aefb1e844a7d1ab8774252c7c24d.png" xmlns="">0bpLDxiBEkkWo7wiomETIuw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

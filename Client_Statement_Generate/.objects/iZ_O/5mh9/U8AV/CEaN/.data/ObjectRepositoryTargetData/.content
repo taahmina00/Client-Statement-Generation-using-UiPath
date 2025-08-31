@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="09uJ58__YEGAQDM1JtXlNQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/BankUltimusSPARK" CVScreenId="e34ac263-c332-4a66-8ffd-c383d0d31bb4" CvTextArea="750, 347, 46, 16" CvTextArgument="JserID" CvType="Text" DesignTimeRectangle="749, 355, 332, 30" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='UserId' tag='INPUT' type='text' class='txtlogin' aaname='UserID' /&gt;" Guid="8b939cd0-f055-4124-80e7-e61996bac191" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Login' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e34ac263-c332-4a66-8ffd-c383d0d31bb4" CvTextArea="750, 347, 46, 16" CvTextArgument="JserID" CvType="Text" DesignTimeRectangle="749, 344, 47, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='UserID' check:innerText='UserID' /&gt;" Guid="ac4ac42c-2bcf-4afd-9432-3664040a900d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b239da8329105f74e719f630009a5aa1.png" xmlns="">0q0B9YqSNy0mTibnJ0yf7_g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XjcFNH90xkqmu1B4A1Qxbw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="f4d9912e-1879-4535-9604-eda7fa3cf5a0" CvElementArea="12, 747, 64, 19" CvTextArea="33, 751, 22, 13" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="14, 748, 60, 21" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='dvContainer' tag='TABLE' /&gt;&lt;webctrl type='submit' tag='INPUT' class='' aaname='ALT + O' check:text='OK' /&gt;" Guid="2ed15b2c-2cc0-4128-abda-a67c2982c6bb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='::BankUltimus::' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8de4e44ddc16b1893c69d21c4841cf3c.png" xmlns="">0j39yHQ7kmki4UrlCHWT7aw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Nle6Ul5gNEyDplg4BUUVxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbsapptest.meghnabank.com.bd/Bankultimus/BU_Reports/BU_ReportUI.aspx" CVScreenId="b642f57b-dea7-4ad3-aad0-b38bc6d27e9c" CvElementArea="909, 6, 20, 19" CvType="CloseButton" DesignTimeRectangle="896, 1, 46, 31" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' role='pane' /&gt;&lt;ctrl name='Close' role='push button' automationid='' check:text='Close' /&gt;" Guid="d39f565b-1385-41c0-8db6-46db4c815947" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='BU_ReportPreviewPOPUPUI.aspx - Google Chrome' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="98bc3bd563048ec3b02696ba78f5450a.png" xmlns="">02c1SvVfUukioDMdugvci0A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

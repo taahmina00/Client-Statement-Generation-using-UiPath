@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Account Number From",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "OhKWtVD9ekKxovWgFFKW6A",
+  "Reference": "FGXxTieRdkCEm9omqXB1bQ/OhKWtVD9ekKxovWgFFKW6A",
+  "ParentRef": "FGXxTieRdkCEm9omqXB1bQ/U8AVoKerikqPS7Bi9wIX_g",
+  "Created": "2025-03-12T08:17:04.4685124Z",
+  "Updated": "2025-03-12T08:17:04.4685124Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
